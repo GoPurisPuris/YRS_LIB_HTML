@@ -1,0 +1,84 @@
+.box-1{
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid rgb(54, 54, 54);
+    margin-top: 100px;
+    margin: 50px;
+    padding: 10px;
+    color: rgb(81, 81, 81);
+    font-size: 18px;
+    transition-property: transform, background-color, color;
+    transition-duration: 1.5s, 1s, 1s;
+    transition-delay: 0s, 1s, 1s;
+    transition-timing-function: ease-in;
+}
+
+.box-1:hover{
+    transform: rotate(360deg) scale(2,2);
+    background-color: rgb(156, 156, 156);
+    color: aliceblue;
+}
+
+.box-2{
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid rgb(54, 54, 54);
+    margin-top: 100px;
+    margin: 50px;
+    padding: 10px;
+     color: rgb(81, 81, 81);
+    font-size: 18px;
+    transition-property: transform, background-color;
+    transition-duration: 1.5s, 1.5s;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.box-2:hover{
+    transform: scale(1.5,1.5);
+    background-color: rgb(255, 204, 36);
+}
+
+.box{
+    display: inline-block;
+    border: 3px solid rgb(54, 54, 54);
+    margin-top: 550px;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(17, 6, 6);
+    font-size: 18px;
+    background-color: rgb(255, 80, 31);
+}
+
+.kuy-1{
+    animation-name: box-jumping;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.kuy-2{
+    animation: box-jumping 2s 1s infinite;
+}
+
+.kuy-3{
+    animation: box-jumping 2s 2s infinite;
+}
+
+.kuy-4{
+    animation: box-jumping 2s 3s infinite;
+}
+
+@keyframes box-jumping{
+    0%{
+        transform: translateY(0%);
+        animation-timing-function: ease-out;
+    }
+    50%{
+        transform: translateY(100%);
+        animation-timing-function: ease-in;
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}

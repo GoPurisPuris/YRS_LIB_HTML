@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>เทส Event ไอน้อง</title>
+        <link rel="stylesheet" href="DomCheck.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form class="answer-form">
+            <p>
+                <label>ชื่อ(ไม่เกิน 15 ตัว)</label>
+            </p>
+            
+            <input 
+                id="name"
+                type="text"
+                placeholder="ขื่อ"
+                class="input"
+            >
+            
+            <p>
+                <label>คำอธิบาย(ไม่เกิน 15 ตัว)</label>
+            </p>
+            
+            <input 
+                id="explain"
+                type="text"
+                placeholder="อธิบายเกี่ยวกับตัวเอง"
+                class="input"
+            >
+            
+            <p>
+                <button
+                    id="button"
+                    type="submit"
+                >ส่งข้อมูล</button>
+            </p>
+        </form>
+
+        <div class="show">
+            ***ข้อมูลยาวเกินไป
+        </div>
+    <script src='DomCheck.js'></script>
+    </body>
+</html>

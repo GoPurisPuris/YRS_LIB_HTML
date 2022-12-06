@@ -1,0 +1,98 @@
+html, body {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Theader {
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Sheader {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.shadow {
+    box-shadow: 10px 10px 4px 4px rgba(108, 34, 2, 0.546);
+}
+
+.box {
+    background-color: rgb(255, 131, 54);
+    padding: 80px;
+    margin: 80px;
+}
+
+.sbox {
+    border: 2px solid red;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+
+.Ffooter {
+    background-color: rgb(255, 119, 0);
+    padding: 20px;
+}
+
+.Go {
+    font-size: 18px;
+    font-weight: 900;
+}
+ 
+.name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(113, 8, 8);
+    color: rgb(255, 175, 175);
+}
+
+.moreima {
+    position: relative;
+    width: 100%;
+}
+
+.leader {
+    color: yellow;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 3px 10px;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+  
+}
+

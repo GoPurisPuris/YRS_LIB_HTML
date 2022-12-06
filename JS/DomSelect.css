@@ -1,0 +1,25 @@
+body , html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.equip-slot {
+    background-color: red;
+    text-align: center;
+    padding: 25px;
+    max-width: 45%;
+}
+
+.equip-pic {
+    max-width: 200px;
+}
+
+.box-pic {
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 25px;
+}
+
+.pic {
+    max-width: 100px;
+}

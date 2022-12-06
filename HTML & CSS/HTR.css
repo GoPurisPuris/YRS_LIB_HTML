@@ -1,0 +1,126 @@
+head, body{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Theader {
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Sheader {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item{
+    display: block;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-4{
+    width: 33.33%;
+}
+
+.item-8{
+    width: 66.66%;
+}
+
+.box{
+    background-color: rgb(245, 165, 5);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.head{
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.box1{
+    background-color: rgb(56, 247, 135);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-areas: 
+    'head head'
+    'smallhead smallhead2'
+    'main1 hist'
+    'main2 hist'
+    'main3 hist'
+    'main4 hist'
+    'main5 hist'
+    'main6 hist'
+    'foot foot'
+    ;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 50px;
+}
+
+.bighead{
+    grid-area: head;
+}
+.smallhead{
+    grid-area: smallhead;
+}
+.smallhead2{
+    grid-area: smallhead2;
+}
+.main1{
+    grid-area: main1;
+}
+.main2{
+    grid-area: main2;
+}
+.main3{
+    grid-area: main3;
+}
+.main4{
+    grid-area: main4;
+}
+.main5{
+    grid-area: main5;
+}
+.main6{
+    grid-area: main6;
+}
+.hist{
+    grid-area: hist;
+}
+.footy{
+    grid-area: foot;
+}

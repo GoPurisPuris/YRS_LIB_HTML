@@ -1,0 +1,9 @@
+.table-beauty th,
+.table-beauty td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.table-beauty{
+    border-collapse: collapse ;
+}

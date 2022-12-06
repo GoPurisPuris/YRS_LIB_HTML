@@ -1,0 +1,40 @@
+.header {
+    background-color: rgb(12, 125, 255);
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    max-width: 300px;
+    color: white;
+}
+
+.input {
+    text-align: center;
+}
+
+.input2{
+    width: 250px;
+}
+
+.button { 
+    text-align: center;
+}
+
+.button2 {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    background-color: rgb(198, 198, 198);
+    border: none;
+}
+
+.output {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 30px;
+    padding-left: 20%;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}

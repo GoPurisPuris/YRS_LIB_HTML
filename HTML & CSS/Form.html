@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>แบบฟอร์ม</title>
+    </head>
+    <body>
+        <form action="https://httpbin.org/post" method="POST">
+            <p>
+                <label for="input-name">ชื่อ-สกุล</label> 
+            </p>
+            <p>
+                <input id="input-name" type="text" name="fullname"> 
+            </p>
+            <p>
+                <label for="input-email">อีเมลล์</label> 
+            </p>
+            <p>
+                <input id="input-email" type="email" name="email"> 
+            </p>
+            <p>
+                <label for="input-password">รหัสผ่าน</label> 
+            </p>
+            <p>
+                <input id="input-password" type="text" name="password"> 
+            </p>
+            <p>
+                <label for="input-address">ที่อยู่</label>
+            </p>
+            <p>
+                <textarea id="input-address" name="address" rows="2"></textarea>
+            </p>
+
+            <p>ชั้น</p>
+            <p>
+                <input id="input-class-m1" type="radio" name="class" value="m.1">
+                <label for="input-class-m1">ม.1</label>
+            </p>
+            <p>
+                <input id="input-class-m2" type="radio" name="class" value="m.2">
+                <label for="input-class-m2">ม.2</label>
+            </p>
+            <p>
+                <input id="input-class-m3" type="radio" name="class" value="m.3">
+                <label for="input-class-m3">ม.3</label>
+            </p>
+            <p>
+                <input id="input-class-m4" type="radio" name="class" value="m.4">
+                <label for="input-class-m4">ม.4</label>
+            </p>
+            <p>
+                <input id="input-class-m5" type="radio" name="class" value="m.5">
+                <label for="input-class-m5">ม.5</label>
+            </p>
+            <p>
+                <input id="input-class-m6" type="radio" name="class" value="m.6">
+                <label for="input-class-m6">ม.6</label>
+            </p>
+
+            <p>ทับ</p>
+            <select name="room">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select>
+
+            <p>ผลไม้ที่ชอบ</p>
+            <p>
+                <input id="input-fruit-apple" type="checkbox" name="fruit" value="apple">
+                <label for="input-fruit-apple">แอปเปิล</label>
+            </p>
+            <p>
+                <input id="input-fruit-orange" type="checkbox" name="fruit" value="orange">
+                <label for="input-fruit-orange">ส้ม</label>
+            </p>
+            <p>
+                <input id="input-fruit-grape" type="checkbox" name="fruit" value="grape">
+                <label for="input-fruit-grape">องุ่น</label>
+            </p>
+            <p>
+                <input id="input-fruit-durian" type="checkbox" name="fruit" value="durian">
+                <label for="input-fruit-durian">ทุเรียน</label>
+            </p>
+            <p>
+                <button type="submit">ส่งข้อมูล</button>
+            </p>
+        </form>
+    </body>
+</html>
+
+<!-- https://httpbin.org/get GET-->
+<!-- https://httpbin.org/post POST -->

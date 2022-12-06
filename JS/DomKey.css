@@ -1,0 +1,21 @@
+.box {
+    text-align: center;
+    position: relative;
+
+}
+
+.before {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.next {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.pic {
+    padding-bottom: 50px;
+}

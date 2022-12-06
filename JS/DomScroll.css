@@ -1,0 +1,48 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.boxBig {
+    position: relative;
+}
+
+.boxSmall {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: orange;
+    text-align: center;
+    position: fixed;
+    padding: 20px;
+    transition: bottom 0.5s ease-out;
+}
+
+.boxSmall.hide2 {
+    bottom: -200px;
+}
+
+.header {
+    background-color: rgb(103, 103, 103);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    transition: top 0.3s ease-out;
+}
+
+.header.hide {
+    top: -61px;
+}
+
+.boxPic {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.pic {
+    margin: 50px;
+    width: 75%;
+}

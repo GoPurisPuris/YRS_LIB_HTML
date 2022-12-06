@@ -1,0 +1,14 @@
+.box {
+    padding: 25px;
+    border: 5px solid black;
+    width: 50%;
+    display: none;
+}
+
+.box.show {
+    display: block;
+}
+
+.image {
+    width: 200px;
+}
